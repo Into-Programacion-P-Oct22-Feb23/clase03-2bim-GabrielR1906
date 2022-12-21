@@ -22,6 +22,9 @@ public class Ejemplo2 {
             1   4   3
             36  64  9
         */
+        
+        // Renato Gabriel Rojas Silva
+        
         double[][] dato2 = new double [2][3]; 
         for (int i = 0; i < dato1.length; i++) {
             for (int j = 0; j < dato1[i].length; j++) {
