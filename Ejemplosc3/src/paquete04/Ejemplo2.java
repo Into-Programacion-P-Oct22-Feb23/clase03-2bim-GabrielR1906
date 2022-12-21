@@ -22,7 +22,23 @@ public class Ejemplo2 {
             1   4   3
             36  64  9
         */
+        double[][] dato2 = new double [2][3]; 
+        for (int i = 0; i < dato1.length; i++) {
+            for (int j = 0; j < dato1[i].length; j++) {
+                if (dato1[i][j] % 2 == 0) {
+                    dato2[i][j] =dato1[i][j] * dato1[i][j];
+                } else {
+                    dato2[i][j] = dato1[i][j];
+                }
+            }
+        }
         
+        for (int i = 0; i < dato1.length; i++) {
+            for (int j = 0; j < dato1[i].length; j++) {
+                System.out.printf("%.0f\t", dato2[i][j]);
+            }
+            System.out.println(); // salto de línea
+        }
     }
     
 }
